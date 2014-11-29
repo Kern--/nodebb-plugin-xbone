@@ -1,10 +1,12 @@
 {
     "id": "nodebb-plugin-xbone",
     "name": "XBone plugin",
-    "description": "Replaces common mispellings of XBone (e.g. Xbox One)",
+    "description": "Replaces common mispellings of Xbone (e.g. Xbox One)",
     "url":"https://github.com/Kern--/nodebb-plugin-xbone",
-    "library":"./library",
+    "library":"./library.js",
     "hooks": [
-        {"hook":"filter:post.save", "method":"xbonify"}
+        {"hook":"filter:parse.raw", "method":"xbonifyRaw"},
+        {"hook":"filter:parse.post", "method":"xbonifyPost"},
+        {"hook":"filter:parse.signature", "method":"xbonifySignature"}
     ]
 }
