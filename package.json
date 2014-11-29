@@ -14,7 +14,7 @@
         "Xbox One"
     ],
     "author":"Kern--",
-    "license", "BSD-2-Clause",
+    "license": "BSD-2-Clause",
     "bugs": {
         "url": "https://github.com/Kern--/nodebb-plugin-xbone/issues"
     },
