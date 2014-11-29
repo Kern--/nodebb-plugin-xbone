@@ -1,0 +1,25 @@
+{
+    "name": "nodebb-plugin-xbone",
+    "version": "1.0.0",
+    "description": "Replaces common mispellings of XBone (e.g. Xbox One)",
+    "main": "library.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Kern--/nodebb-plugin-xbone.git"
+    },
+    "keybords":[
+        "nodebb",
+        "XBone",
+        "Xbox",
+        "Xbox One"
+    ],
+    "author":"Kern--",
+    "license", "BSD-2-Clause",
+    "bugs": {
+        "url": "https://github.com/Kern--/nodebb-plugin-xbone/issues"
+    },
+    "readmeFile": "README.md",
+    "nbbpm": {
+        "compatibility": "^0.6.0"
+    }
+}
